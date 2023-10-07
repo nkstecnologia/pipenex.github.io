@@ -324,8 +324,8 @@ es-CO:
 
 pt: &DEFAULT_PT
   header:
-    title: PipeNex
-    text: Excelência Digital
+    title: quer tirar seu projeto do papel?
+    text: --- nós te ajudamos ---
     button: Mais
     buttonlink: "#services"
 
