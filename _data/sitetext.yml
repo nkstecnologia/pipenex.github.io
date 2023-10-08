@@ -331,18 +331,25 @@ pt: &DEFAULT_PT
 
   services:
     title: "Serviços"
-    text: "Lorem ipsum"
+    text: "Atendemos todas as fases do desenvolvimento de software, desde a concepção até a implementação e manutenção. Com expertise abrangente, garantimos soluções completas e personalizadas para impulsionar a eficiência e o sucesso do seu projeto."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+    - title: "Desenvolvimento"
+      desc: "Criamos soluções exclusivas que atendem às necessidades específicas do seu negócio, seja para uma plataforma, site, aplicativo móvel ou e-commerce."
+      icon: fas fa-shopping-cart
+    - title: "Manutenção"
+      desc: "Cuidamos da manutenção de sistemas legados, assegurando a solidez e confiabilidade contínua de suas tecnologias mais antigas."
+      icon: fas fa-laptop
+    - title: "Consultoria"
+      desc: "Confiabilidade em projeto e desenvolvimento de software, gestão ágil de projetos e equipes. Potencialize seus resultados com a nossa experiência."
+      icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Conheça as soluções que desenvolvemos."
+    section: portfolio
+    closebutton: "Fechar"
+
   about:
     title: "Sobre"
     text: "our story"

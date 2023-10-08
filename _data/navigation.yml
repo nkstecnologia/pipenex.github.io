@@ -21,6 +21,8 @@ en: &DEFAULT_PT
   nav:
     - title: "Serviços"
       section: services
+    - title: "Portfolio"
+      section: portfolio
     - title: "Sobre"
       section: about
     - title: "Contato"
