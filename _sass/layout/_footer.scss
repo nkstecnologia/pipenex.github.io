@@ -8,6 +8,10 @@
     text-transform: none;
     @include heading-font;
   }
+  span.address {
+    @extend span, .copyright;
+    line-height: 0px;
+  }
   ul.quicklinks {
     font-size: 90%;
     line-height: 40px;

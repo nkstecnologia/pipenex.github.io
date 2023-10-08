@@ -35,6 +35,18 @@ collections:
 
 markdown: kramdown
 
+company:
+  name: RENAN TAIZO NAKASHIMA LTDA
+  cnpj: 49.506.839/0001-95
+  address:
+    street: R. Francisco Rocha
+    number: 198
+    region: Batel
+    city: Curitiba
+    state: PR
+    country: Brasil
+    zip: 80.420-130
+
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 # formspree_form_path: "f/a_form_id"

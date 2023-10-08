@@ -1,12 +1,11 @@
 <!-- Footer -->
 <footer class="footer" id="footer" style="background-color: white">
   <div class="container">
-    {% if site.locale and site.locale != "" and site.locale != nil %}
     <div class="row align-items-center">
-      <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
-        >
+      <div class="col-md-4 text-left">
+        <span class="address">{{ site.company.address.street }}, {{ site.company.address.number}}</span><br/>
+        <span class="address">{{ site.company.address.city}}, {{ site.company.address.state}}, {{ site.company.address.country}}</span><br/>
+        <span class="address">CEP {{ site.company.address.zip }}</span>
       </div>
       <!-- Social Media -->
       <div class="col-md-4">
@@ -21,6 +20,7 @@
           </li>
           {% endfor %}
         </ul>
+        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span><br/>
       </div>
       <!-- Legal -->
       <div class="col-md-4">
@@ -34,42 +34,9 @@
         </ul>
       </div>
     </div>
-    {% else %}
-    <div class="row align-items-center">
-      <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
-        >
-      </div>
-      <!-- Social Media -->
-      <div class="col-md-4">
-        <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext.footer.social %}
-          <li class="list-inline-item">
-            {% if link.url %}
-            <a href="{{ link.url }}">
-              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
-            </a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- Legal -->
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li class="list-inline-item">
-            <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    {% endif %}
   </div>
 </footer>
+
 {% if page.layout == "page" %}
 <script>
   fixPageShort();

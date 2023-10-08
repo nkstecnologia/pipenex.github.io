@@ -352,37 +352,29 @@ pt: &DEFAULT_PT
 
   about:
     title: "Sobre"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Somos a pipenex, uma equipe dedicada à excelência na transformação digital. "
+    body: "Nosso compromisso é oferecer soluções inovadoras e personalizadas para atender às necessidades únicas do seu negócio. Com expertise em desenvolvimento de software, consultoria ágil e manutenção de sistemas, impulsionamos o crescimento e a eficiência de empresas em diversos setores. Na pipenex, combinamos criatividade, tecnologia de ponta e comprometimento para construir o futuro digital do seu empreendimento."
     section: about
 
   contact:
     title: "Contato"
-    text: "Lorem ipsum or call 123456789"
+    text: "Preencha o formulário abaixo e deixe a sua mensagem."
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
+    name: "Nome*"
+    name-validation: "Por favor, digite o seu nome."
     email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    email-validation: "Digite o seu endereço de e-mail"
+    phone: "Telefone"
+    phone-validation: "Insira o seu número de telefone"
+    message: "Mensagem*"
+    message-validation: "Por favor, escreva a sua mensagem."
+    subject: "pipenex - formulário de contato"
+    submit: "Enviar"
 
   footer:
     legal: "Política de Privacidade"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/pipenex-sw
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
 pt-BR:
   <<: *DEFAULT_PT
