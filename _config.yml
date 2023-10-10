@@ -53,6 +53,7 @@ company:
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 logo:
   path: ./assets/img/logo.svg
