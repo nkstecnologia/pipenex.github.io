@@ -54,8 +54,8 @@ company:
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-logo:
-  path: ./assets/img/logo.svg
+logo: ./assets/img/logo.svg
 
 favicon: ./favicon.svg
